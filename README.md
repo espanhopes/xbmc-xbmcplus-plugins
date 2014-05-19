@@ -27,7 +27,7 @@ There are two main ways to install this XBMC repository:
 3. Choose: **repository.xbmcplus.xbmc-plugins-1.3.0.zip**
 
 ### 2. Manual Download and Installation
-1. Simply download the [repository zip](https://github.com/moneymaker365/repository.xbmcplus.xbmc-plugins/archive/master.zip)
+1. Simply download the [repository zip](https://github.com/moneymaker365/repository.xbmcplus.xbmc-plugins/releases)
 and install it in XBMC.
 2. Read the following [guide](http://wiki.xbmc.org/index.php?title=Add-ons#How_to_install_from_zip)
 on the XBMC wiki to learn how to install addons from a repository.
