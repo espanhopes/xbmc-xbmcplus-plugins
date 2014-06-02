@@ -23,28 +23,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.hulu"
-       name="Hulu"
-       version="3.4.8"
-       provider-name="BlueCop">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.elementtree" version="1.2.7"/>
-    <import addon="script.module.cryptopy" version="1.2.6"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="default.py">
-	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Hulu video plugin</summary>
-    <description>Videos from Hulu.com</description>
-    <disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-  </extension>
-</addon>
-
 <addon id="plugin.video.mrtplay" name="MPT Play" version="1.0.0" provider-name="moneymaker">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -168,43 +146,6 @@
   </extension>
 </addon>
 
-<addon id="script.module.beautifulsoup"
-       name="BeautifulSoup"
-       version="3.2.1"
-       provider-name="Leonard Richardson (leonardr@segfault.org)">
-  <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
-    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
-    <license>BSD</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.beautifulsoup4"
-       name="BeautifulSoup4"
-       version="4.3.2"
-       provider-name="Leonard Richardson (leonardr@segfault.org)">
-  <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
-    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
-    <license>BSD</license>
-    <platform>all</platform>
-    <website>http://www.crummy.com/software/BeautifulSoup/</website>
-  </extension>
-</addon>
-
 <addon id="script.module.coveapi"
        name="Cove API"
        version="0.2.1"
@@ -224,21 +165,7 @@
        version="1.2.6"
        provider-name="cryptopy.sourceforge.net">
   <requires>
-    <import addon="xbmc.python" version="2.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.elementtree"
-       name="Elementtree XML parser"
-       version="1.2.7"
-       provider-name="http://effbot.org/zone/element-index.htm">
-  <requires>
-    <import addon="xbmc.python" version="1.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
@@ -257,88 +184,6 @@
   <extension point="xbmc.python.module"
              library="lib" />
   <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.html5lib"
-       name="html5lib-python"
-       version="0.999.0"
-       provider-name="html5lib">
-  <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
-    <import addon="script.module.six"
-                      version="1.4.1"
-                     optional="false"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Standards-compliant library for parsing and serializing HTML documents and fragments in Python.</summary>
-    <description>html5lib is a pure-python library for parsing HTML. It is designed to conform to the WHATWG HTML specification, as is implemented by all major web browsers.</description>
-    <platform>all</platform>
-    <license>MIT</license>
-    <source>https://github.com/html5lib/html5lib-python.git</source>
-    <website>https://github.com/html5lib/html5lib-python</website>
-  </extension>
-</addon>
-
-<addon id="script.module.pyamf"
-       name="PyAMF"
-       version="0.6.2"
-       provider-name="Mark Honeychurch (markhoney)">
-  <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>PyAMF provides Action Message Format (AMF) support for Python that is compatible with the Adobe Flash Player.</summary>
-    <description>The Adobe Integrated Runtime and Adobe Flash Player use AMF to communicate between an application and a remote server. AMF encodes remote procedure calls (RPC) into a compact binary representation that can be transferred over HTTP/HTTPS or the RTMP/RTMPS protocol. Objects and data values are serialized into this binary format, which increases performance, allowing applications to load data up to 10 times faster than with text-based formats such as XML or SOAP.
-AMF3, the default serialization for ActionScript 3.0, provides various advantages over AMF0, which is used for ActionScript 1.0 and 2.0. AMF3 sends data over the network more efficiently than AMF0. AMF3 supports sending int and uint objects as integers and supports data types that are available only in ActionScript 3.0, such as ByteArray, ArrayCollection, ObjectProxy and IExternalizable.</description>
-    <license>MIT</license>
-    <platform>all</platform>
-	<source>http://www.pyamf.org/</source>
-  </extension>
-</addon>
-
-<addon id="script.module.simplejson"
-       name="simplejson"
-       version="3.3.0"
-       provider-name="Martijn">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <language></language>
-    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
-    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
-    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/</disclaimer>
-    <license>MIT License, Academic Free License v. 2.1</license>
-    <website>https://pypi.python.org/pypi/simplejson/</website>
-    <source>https://pypi.python.org/pypi/simplejson/</source>
-  </extension>
-</addon>
-
-<addon id="script.module.socksipy"
-       name="SocksiPy"
-       version="2.0.0"
-       provider-name="Mossy">
-  <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>A Python SOCKS client module</summary>
-    <description>Provides a socket-like interface that supports connections to any TCP service through the use of a SOCKS4, SOCKS5 or HTTP proxy. For usage see http://code.google.com/p/socksipy-branch/</description>
-    <license>BSD</license>
     <platform>all</platform>
   </extension>
 </addon>
