@@ -15,10 +15,9 @@ The following is a listing of the xbmcplus community add-ons available from this
 ---|---|---|---|---
 1 | USTV VoD (Video-on-Demand) | - | No | TV On-Demand
 2 | Free Cable (no further development) | -‎ | No | TV Show
-3 | Hulu | http://www.hulu.com | Yes | TV On-Demand
-4 | MRT Play | http://play.mrt.com.mk | No | TV On-Demand
-5 | VEVO | http://www.vevo.com | No | Music Videos
-6 | World News Live | - | No | Live TV
+3 | MRT Play | http://play.mrt.com.mk | No | TV On-Demand
+4 | VEVO | http://www.vevo.com | No | Music Videos
+5 | World News Live | - | No | Live TV
 ## Installation
 There are two main ways to install this XBMC repository:
 ### 1. Using XBMC HUB's Fusion Server (recommended)
