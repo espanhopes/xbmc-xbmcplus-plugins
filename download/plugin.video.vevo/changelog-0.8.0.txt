@@ -1,3 +1,7 @@
+version 0.8.0
+
+  * fix common problems
+
 version 0.7.9
 
   * fix Facebook login
