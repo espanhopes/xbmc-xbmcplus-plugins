@@ -1,14 +1,6 @@
-version 0.8.1
+version 0.8.2
 
-  * fix script version
-
-version 0.8.0
-
-  * fix common problems
-
-version 0.7.9
-
-  * fix Facebook login
+  * undo back to v0.7.8
 
 version 0.7.8
 
