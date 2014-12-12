@@ -1,11 +1,14 @@
 version 0.8.2
 
-  * undo back to v0.7.8
+  * revert back to v0.7.8a
 
-version 0.7.8
+version 0.7.8a
 
-  * update for HLS
-  * update to fix featured
+  * fix for addon.xml to add dependency for script.facebook.media
+
+version 0.7.7d
+
+ * Facebook login fix
 
 version 0.7.7c
 
