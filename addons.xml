@@ -45,7 +45,7 @@
 
 <addon id="plugin.video.ustvvod"
        name="USTV VoD"
-	   version="1.1.8"
+	   version="1.1.9"
 	   provider-name="BlueCop, moneymaker, slices, zero">
   <requires>
     <import addon="xbmc.python"                       version="2.1.0"/>
