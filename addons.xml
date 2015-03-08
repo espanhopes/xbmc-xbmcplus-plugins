@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.free.cable"
-       name="Free Cable"
-       version="0.7.8"
-       provider-name="BlueCop">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.demjson" version="1.4.1"/>
-    <import addon="script.module.free.cable.database" version="0.0.4"/>
-    <import addon="script.module.coveapi" version="0.2.1"/>
-    <import addon="script.module.addon.common" version="2.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>US station aggregator</summary>
-    <description>"Free Cable is the ultimate aphrodisiac" - The Cable Guy</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.mrtplay" name="MPT Play" version="1.0.0" provider-name="moneymaker">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -161,20 +138,6 @@
        name="Cove API"
        version="0.2.1"
        provider-name="github.com/pbs/python-coveapi">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.cryptopy"
-       name="CryptoPy"
-       version="1.2.6"
-       provider-name="cryptopy.sourceforge.net">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
